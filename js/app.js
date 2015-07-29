@@ -16,6 +16,13 @@ $(document).ready(function() {
     $('#myInput').focus()
   })
 
+  $('#curriculuminsight-Modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
+  $('#tictactoe-Modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
 
   //Hover over thumbnails
 
