@@ -8,6 +8,30 @@ $(document).ready(function() {
     $('#myInput').focus()
   })
 
+  $('#artCity-Modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
+  $('#monstermaps-Modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
+
+  //Hover over thumbnails
+
+  $("[rel='tooltip']").tooltip();
+
+  $('.portfolio-area-tile').hover(
+    function() {
+      $(this).find('.caption').slideDown(250);
+    },
+    function() {
+      $(this).find('.caption').slideUp(250);
+    }
+  );
+
+
+
   //PARALLAX!
   // IDEA: the background div is fixed while the image has position absolute (CSS)
   // The images in the foreground scroll faster than the images in the background
