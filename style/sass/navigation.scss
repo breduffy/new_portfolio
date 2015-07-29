@@ -1,0 +1,18 @@
+#breLogo{
+  height: 60px;
+  position:fixed;
+  top:15px !important;
+  left:15px !important;
+  z-index: 3000;
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+  -webkit-transition-duration: 0.8s;
+}
+
+#menuButton{
+  position:fixed;
+  top:0px !important;
+  right:0px !important;
+  z-index: 3000;
+}

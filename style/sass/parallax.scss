@@ -1,0 +1,154 @@
+/*Paralax layers*/
+// IDEA: the background div is fixed while the image has position absolute
+// The images in the foreground scroll faster than the images in the background
+
+#layer1img {
+  height: 300px;
+  z-index: 10;
+  position: absolute;
+  left: 8%; /* align left edge with center of viewport */
+  top: 160px;
+  margin-left: -50px; /* move left by half element's width */
+}
+
+#layer2img {
+  height: 250px;
+  z-index: 9;
+  position: absolute;
+  left: 75%;
+  top: 165px;
+  margin-left: 0px; /* move left by half element's width */
+  width: 250px;
+}
+
+#layer3{
+  z-index: 8;
+  position: fixed;
+  left: 110%; /* align left edge with center of viewport */
+  top: 0;
+  width: 1000px;
+  margin-left: -700px;
+}
+
+#layer3img {
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  height: 200px;
+  width: 250px;
+}
+
+#layer4{
+  z-index: 7;
+  position: fixed;
+  left: 70%; /* align left edge with center of viewport */
+  top: 0;
+  margin-left: 50px;
+}
+
+#layer4img {
+  position: absolute;
+  top: 20px;
+  /*left: 100px;*/
+  height: 500px;
+  width: 450px;
+}
+
+#layer5{
+  z-index: 6;
+  position: fixed;
+  left: 65%; /* align left edge with center of viewport */
+  top: 0;
+  margin-left: -700px;
+}
+
+#layer5img {
+  position: absolute;
+  top: 130px;
+  /*left: 100px;*/
+  height: 300px;
+  width: 400px;
+}
+
+#layer6{
+  z-index: 5;
+  position: fixed;
+  left: 120%; /* align left edge with center of viewport */
+  top: 0;
+  margin-left: -700px;
+}
+
+
+#layer6img {
+  position: absolute;
+  top: 150px;
+  /*left: 100px;*/
+  height: 280px;
+  width: 300px;
+
+}
+
+#layer7{
+  z-index: 4;
+  position: fixed;
+  left: 10%; /* align left edge with center of viewport */
+  top: 0;
+  margin-left: -200px;
+}
+
+
+#layer7img {
+  position: absolute;
+  top: 20px;
+  /*left: 100px;*/
+  height: 400px;
+  width: 400px;
+}
+
+#layer8img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+}
+#layer8img:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#layer8{
+  z-index: 3;
+  position: fixed;
+  left: 52%; /* align left edge with center of viewport */
+  top: 0;
+  margin-left: -200px;
+}
+
+
+#layer8img {
+  position: absolute;
+  top: 20px;
+  /*left: 100px;*/
+  // height: 300px;
+  // width: 300px;
+
+}
+
+#layer9{
+  z-index: 3;
+  position: fixed;
+  left: 52%; /* align left edge with center of viewport */
+  top: 0;
+  margin-left: -200px;
+}
+
+
+#layer9img {
+  position: absolute;
+  top: 20px;
+  /*left: 100px;*/
+  // height: 300px;
+  // width: 300px;
+
+}
+
+
