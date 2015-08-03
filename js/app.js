@@ -32,6 +32,22 @@ $(document).ready(function() {
     $('#myInput').focus()
   })
 
+  $('#nourish-modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
+  $('#finance-modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
+  $('#civil-rights-modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
+  $('#character-modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
   //Hover over thumbnails
 
   $("[rel='tooltip']").tooltip();
