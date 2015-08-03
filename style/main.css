@@ -666,6 +666,15 @@ a:hover {
 .icon {
   color: #47DAB5; }
 
+#breLogo {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out; }
+
+#breLogo:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
 #about {
   z-index: 1000;
   text-align: center; }
@@ -674,7 +683,7 @@ a:hover {
   color: #ffffff;
   font-size: 150px; }
 
-#work {
+.work {
   background-color: #f7f7f7;
   z-index: 1000;
   text-align: center;
@@ -696,6 +705,24 @@ a:hover {
 
 .portfolio-area-tile-images {
   height: 100%; }
+
+#work-see-more a {
+  color: #000000; }
+
+#work-see-more a:hover {
+  color: #47DAB5; }
+
+#portfolio-page-hero {
+  background-color: #47DAB5; }
+
+#workPage-heroTitle {
+  z-index: 9000;
+  margin-top: 30px;
+  text-align: center; }
+
+.portfolio-page-tile-area {
+  text-align: center;
+  padding: 0px; }
 
 #footer {
   height: 300px;
@@ -896,20 +923,12 @@ a:hover {
 
 /* FULL SCREEN MODAL STYLES
     -------------------------------------------------- */
-#artCity-Modal {
-  z-index: 4001;
-  background-color: #ffffff; }
-
-#monstermaps-Modal {
-  z-index: 4001;
-  background-color: #ffffff; }
-
-#curriculuminsight-Modal {
+.modal-style {
   z-index: 4001;
   background-color: #ffffff; }
 
 .thumbnail-main {
-  background-color: #f7f7f7; }
+  text-align: left; }
 
 #menuButton {
   float: right; }

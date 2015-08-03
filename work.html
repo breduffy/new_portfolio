@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>Bre Duffy's Portfolio</title>
+
+
+  <!-- Font Awesome link-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+  <!-- Latest compiled and animate.CSS -->
+  <link rel="stylesheet" href="style/animate.min.css">
+
+  <!-- Latest compiled and animate.CSS -->
+  <link rel="stylesheet" href="style/font-awesome-animation.min.css">
+
+  <!-- Link to my main stylesheet, include boostrap css -->
+  <link rel="stylesheet" href="style/main.css">
+
+
+</head>
+
+<body>
+
+
+<!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+    <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="border:0;">
+                        <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+                        <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+                </div>
+                <div class="modal-body text-center">
+                    <ul style="list-style-type:none;">
+                        <li><a href="#" class="big">Hello</a></li>
+                        <li><a href="#" class="big">Skills</a></li>
+                        <li><a href="#" class="big">Portfolio</a></li>
+                        <li><a href="#" class="big">About</a></li>
+                        <li><a href="http://meagency.com" class="big">Contact</a></li>
+                    </ul>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.fullscreen -->
+
+<!-- Begin Hero -->
+  <div id="portfolio-page-hero" class="col-xs-12 paddingTop-xl paddingRight-xl paddingLeft-xl paddingBottom-md">
+    <div id="navbar" class="col-xs-12">
+      <!-- Button trigger modal -->
+      <i class="fa fa-bars fa-3x faa-pulse animated-hover padding-lg" id="menuButton" data-toggle="modal" data-target="#menuModal"></i>
+      <!-- <button type="button" id="menuButton" class="fa fa-bars" data-toggle="modal" data-target="#menuModal">
+      </button> -->
+      <div>
+        <a href="http://breduffy.com"><img id="breLogo" src="images/small_duffy_icon.png" alt="duffy icon"/></a>
+
+      <!-- <i class="fa fa-adjust fa-3x faa-pulse animated-hover padding-lg" id="breLogo"></i> -->
+      </div>
+    </div>
+    <div id="workPage-heroTitle" class="textPrimary-white">
+      <h5> PORTFOLIO </h5>
+    </div>
+  </div>
+
+<!-- End Hero -->
+
+
+<!-- Begin Work Section -->
+<div class="work col-xs-12">
+
+  <div class="portfolio-page-tile-area col-xs-12">
+
+  <!-- NOPE DONT CARE -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>Nope Don't Care</h4>
+        </br>
+        <p>An anti-social network developed as a fun team project.</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#nope-Modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="artCity" src="images/nope.png" alt="layer 1"/>
+    </div>
+
+  <!-- UX: MINIGAME -->
+
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>UX for Mini-Games</h4>
+        </br>
+        <p>High level UX design for three mini-games.</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#mini-game-modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="artCity" src="images/mini-game-small.png" alt="layer 1"/>
+    </div>
+
+
+  <!-- ART CITY -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>Art City</h4>
+        </br>
+        <p>An art finder application where users upload and search for art in a city</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#artCity-Modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="artCity" src="images/artcity.png" alt="layer 1"/>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>Monster Maps</h4>
+        </br>
+        <p>A fun program where a user can draw and track a monster</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#monstermaps-Modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="monsterMaps" src="images/monstermaps.png" alt="layer 1"/>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>Curriculum Insight</h4>
+        </br>
+        <p>Landing page for a curriculum tool</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#curriculuminsight-Modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="curriculuminsight" src="images/curriculuminsight.png" alt="layer 1"/>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>Arch-Rival Tic Tac Toe</h4>
+        </br>
+        <p>A simple tic tac toe game between various historic arch-rivals</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#tictactoe-Modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="curriculuminsight" src="images/tictactoe.png" alt="layer 1"/>
+    </div>
+
+
+  </div>
+
+</div>
+<!-- End Work Section -->
+
+<!-- BEGIN MODAL SECTION -->
+
+
+<!-- MINI GAME MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="mini-game-modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl">
+          <h5>High Level UX for Mini-Games</h5>
+        </div>
+
+        <div class="thumbnail-main col-xs-12 col-sm-8 col-sm-offset-2">
+
+          <h1> The following are examples of high level concepts and wireframes for three learning programs.</h1>
+
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-1-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-2-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-3-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-4-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-5-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-6-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-7-large.jpg" alt="layer 1"/>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+
+
+<!-- NOPE DON'T CARE MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="nope-Modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl">
+          <h5>Nope Don't Care</h5>
+        </div>
+        <div class="thumbnail-main col-xs-12 col-sm-5 col-sm-offset-1">
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/nope-large.png" alt="layer 1"/>
+        </div>
+        <div class="launched-thumbnail-text padding-xl col-xs-12 col-sm-5">
+          <p> Nope Don't Care. I completed all of the front-end template development in Jade, the interaction design, UI/UX, and graphic design. I also contributed to the back-end code. </p>
+          <p> <strong>Note:</strong> This project is under construction by team Lovelace. </p>
+          <a href="http://www.nopedont.care/" role="button" class="btn thumbnailLaunchedModalButton margin-xl">Launch Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- ART CITY THUMBNAIL MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="artCity-Modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl">
+          <h5>Art City</h5>
+        </div>
+        <div class="thumbnail-main col-xs-12 col-sm-5 col-sm-offset-1">
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/artcity-large.png" alt="layer 1"/>
+        </div>
+        <div class="launched-thumbnail-text padding-xl col-xs-12 col-sm-5">
+          <p>Art city is an art finder that allows users to upload interesting art in their city or search for art within a particular city. Art City is a work in progress. Users can filter art by a category. Version two will include Google Maps API for walking tours. </p>
+          <p> <strong>Note:</strong> Please allow enough time for heroku to start up before searching for art. For now it takes time. </p>
+          <a href="http://breduffy.com/portfolio/artcity" role="button" class="btn thumbnailLaunchedModalButton margin-xl">Launch Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- MONSTER MAPS THUMBNAIL MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="monstermaps-Modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl">
+          <h5>Monster Maps</h5>
+        </div>
+        <div class="thumbnail-main col-xs-12 col-sm-5 col-sm-offset-1">
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/monstermaps-large.png" alt="layer 1"/>
+        </div>
+        <div class="launched-thumbnail-text padding-xl col-xs-12 col-sm-5">
+          <p> Monster Maps is a fun experiment in several techniques I wanted to learn, and thus makes very little sense. Current functionality allows the user to draw a background, drag and drop monster parts, and save their monster in a new window. The user can also place a marker on the map. V2 will allow the monster to be saved at the location. </p>
+          <p> <strong>Note:</strong> There are small issues with the drag and drop section and the map area, which I am in the process of fixing. </p>
+          <a href="http://breduffy.com/portfolio/monstermaps" role="button" class="btn thumbnailLaunchedModalButton margin-xl">Launch Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- Curriculum Insight Landing Page (.fullscreen) -->
+<div class="modal fade fullscreen modal-style col-xs-12" id="curriculuminsight-Modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl">
+          <h5>Curriculum Insight</h5>
+        </div>
+        <div class="thumbnail-main col-xs-12 col-sm-5 col-sm-offset-1">
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/curriculum-insight.png" alt="layer 1"/>
+        </div>
+        <div class="launched-thumbnail-text padding-xl col-xs-12 col-sm-5">
+          <p> Curriculum Insight was a product I developed with a small Agile team. I also completed the User Interface design for the program as well as the overall branding. I designed and programmed this landing page.  </p>
+          <a href="http://breduffy.com/portfolio/landing_page" role="button" class="btn thumbnailLaunchedModalButton margin-xl">Launch Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- Tic Tac Toe Game (.fullscreen) -->
+<div class="modal fade fullscreen modal-style col-xs-12" id="tictactoe-Modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl">
+          <h5>Arch-Rival Tic Tac Toe</h5>
+        </div>
+        <div class="thumbnail-main col-xs-12 col-sm-5 col-sm-offset-1">
+          <img class="launched-thumbnail-image" id="tictactoe" src="images/tictactoe-large.png" alt="layer 1"/>
+        </div>
+        <div class="launched-thumbnail-text padding-xl col-xs-12 col-sm-5">
+          <p> A tic tac toe game pitting famous arch-rivals against each other. I designed and developed the game.</p>
+          <a href="http://breduffy.com/portfolio/ArchRival_TicTacToe" role="button" class="btn thumbnailLaunchedModalButton margin-xl">Launch Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+
+<!-- END THUMBNAIL MODALS (.fullscreen) -->
+
+
+
+<!-- END THUMBNAIL MODALS (.fullscreen) -->
+
+
+
+
+
+
+<!-- Begin Footer Section -->
+  <div id="footer" class="col-xs-12 padding-xl textPrimary-white">
+    <h3 class="padding-xl">© Breanne Duffy 2015</h3>
+<!--     TO DO: Add link to fine art later -->
+<!--     <div id="fine-art">
+      <i class="fineArt fa fa-certificate faa-pulse animated-hover padding-lg"></i>
+      <p id="fine-art-text">looking for my paintings?</p>
+    </div> -->
+  </div>
+
+<!-- End Footer Section -->
+
+
+
+
+ <!--  some google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- My JS -->
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

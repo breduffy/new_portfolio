@@ -1,4 +1,4 @@
-#work{
+.work{
   background-color: #f7f7f7;
   z-index: 1000;
   text-align: center;
@@ -24,4 +24,29 @@
 
 .portfolio-area-tile-images{
   height: 100%;
+}
+
+#work-see-more a{
+  color: #000000;
+}
+
+#work-see-more a:hover{
+  color: #47DAB5;
+}
+
+// WORK Page
+
+#portfolio-page-hero{
+  background-color: #47DAB5;
+}
+
+#workPage-heroTitle{
+  z-index: 9000;
+  margin-top:30px;
+  text-align: center;
+}
+
+.portfolio-page-tile-area{
+  text-align: center;
+  padding:0px;
 }

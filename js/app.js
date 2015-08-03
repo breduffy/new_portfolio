@@ -24,6 +24,14 @@ $(document).ready(function() {
     $('#myInput').focus()
   })
 
+  $('#nope-Modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
+  $('#mini-game-modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
   //Hover over thumbnails
 
   $("[rel='tooltip']").tooltip();

@@ -16,3 +16,13 @@
 .icon {
   color: #47DAB5;
 }
+
+#breLogo {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+}
+#breLogo:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
