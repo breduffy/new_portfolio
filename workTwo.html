@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>Bre Duffy's Portfolio</title>
+
+
+  <!-- Font Awesome link-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+  <!-- Latest compiled and animate.CSS -->
+  <link rel="stylesheet" href="style/animate.min.css">
+
+  <!-- Latest compiled and animate.CSS -->
+  <link rel="stylesheet" href="style/font-awesome-animation.min.css">
+
+  <!-- Link to my main stylesheet, include boostrap css -->
+  <link rel="stylesheet" href="style/main.css">
+
+
+</head>
+
+<body>
+
+
+<!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+    <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="border:0;">
+                        <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+                        <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+                </div>
+                <div class="modal-body text-center">
+                    <ul style="list-style-type:none;">
+                        <li><a href="http://www.breduffy.com" class="big">Hello</a></li>
+                        <li><a href="http://www.breduffy.com" class="big">Skills</a></li>
+                        <li><a href="http://www.breduffy.com/work.html" class="big">Portfolio</a></li>
+                        <li><a href="http://www.breduffy.com/contact.html" class="big">About</a></li>
+                        <li><a href="http://www.breduffy.com/contact.html" class="big">Contact</a></li>
+                    </ul>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.fullscreen -->
+
+<!-- Begin Hero -->
+  <div id="portfolio-page-hero" class="col-xs-12 paddingTop-xl paddingRight-xl paddingLeft-xl paddingBottom-md">
+    <div id="navbar" class="col-xs-12">
+      <!-- Button trigger modal -->
+      <i class="fa fa-bars fa-3x faa-pulse animated-hover padding-lg" id="menuButton" data-toggle="modal" data-target="#menuModal"></i>
+      <!-- <button type="button" id="menuButton" class="fa fa-bars" data-toggle="modal" data-target="#menuModal">
+      </button> -->
+      <div>
+        <a href="http://breduffy.com"><img id="breLogo" src="images/small_duffy_icon.png" alt="duffy icon"/></a>
+
+      <!-- <i class="fa fa-adjust fa-3x faa-pulse animated-hover padding-lg" id="breLogo"></i> -->
+      </div>
+    </div>
+    <div id="workPage-heroTitle" class="textPrimary-white">
+      <h5> PORTFOLIO </h5>
+    </div>
+  </div>
+
+<!-- End Hero -->
+
+<!-- BEGIN WORK SECTION -->
+
+<div id="portfolio-area" class="col-xs-12">
+
+    <!-- NOPE DONT CARE -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+        <div class="caption padding-xl">
+          <h4>Nope Don't Care: Front-End/UX</h4>
+          </br>
+          <p>An anti-social network developed as a fun team project.</p>
+          <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#nope-Modal">Details</a>
+        </div>
+        <img class="portfolio-area-tile-images" id="nope" src="images/nope.png" alt="layer 1"/>
+      </div>
+
+    <!-- UX: MINIGAME -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>UX for Mini-Games</h4>
+        </br>
+        <p>High level UX design for three mini-games.</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#mini-game-modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="miniGame" src="images/mini-game-small.png" alt="layer 1"/>
+    </div>
+
+    <!-- NOURISH -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>UX/Creative Direction for Educational Program</h4>
+        </br>
+        <p>Educational program exploring plant nutrients.</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#nourish-modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="nourish" src="images/nourish/nourish-small.png" alt="layer 1"/>
+    </div>
+
+    <!-- FINANCE GAME -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>UX/Art Direction for Scenario Game</h4>
+        </br>
+        <p>Scenario based game to teach college students about personal finance.</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#finance-modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="artCity" src="images/mini-games/finance-small.png" alt="layer 1"/>
+    </div>
+
+    <!-- ART CITY -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>Art City</h4>
+        </br>
+        <p>An art finder application where users upload and search for art in a city</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#artCity-Modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="artCity" src="images/artcity.png" alt="layer 1"/>
+    </div>
+
+    <!-- CIVIL RIGHTS -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>UX/UI for Civil Rights Program</h4>
+        </br>
+        <p>An educational program to teach students about the civil rights.</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#civil-rights-modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="artCity" src="images/civil-rights/civil-rights-small.png" alt="layer 1"/>
+    </div>
+
+  </div>
+
+</div>
+<!-- END WORK Section -->
+
+<!-- BEGIN MODALS (.fullscreen) -->
+
+<!-- NOPE DON'T CARE MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="nope-Modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl">
+          <h5>Nope Don't Care</h5>
+        </div>
+        <div class="thumbnail-main col-xs-12 col-sm-5 col-sm-offset-1">
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/nope-large.png" alt="layer 1"/>
+        </div>
+        <div class="launched-thumbnail-text padding-xl col-xs-12 col-sm-5 txtMd">
+          <p> Nope Don't Care was created as a humorous group side project. The program is an anti-social network—because one can't like everything. Users can posts photos that they find particularly vexacious, dislike other user's 'nopes', follow other users, tag inappropriate content such as baby photos, and listen to white noise when the internet becomes too overwhelming. I completed all of the front-end template development in Jade, the interaction design, UI/UX, and graphic design. I also contributed to the back-end code. </p>
+          </br>
+          <p> <strong>Note:</strong> This project is under construction by team Lovelace. </p>
+          <a href="http://www.nopedont.care/" role="button" class="txtLg btn thumbnailLaunchedModalButton margin-xl">Launch Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- MINI GAME MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="mini-game-modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl">
+          <h5>High Level UX for Mini-Games</h5>
+        </div>
+
+        <div class="txtMd thumbnail-main col-xs-12 col-sm-8 col-sm-offset-2">
+
+          <p> The following are examples of high level concepts and wireframes for three learning programs.</p>
+
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-1-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-2-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-3-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-4-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-5-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-6-large.jpg" alt="layer 1"/>
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/mini-game-7-large.jpg" alt="layer 1"/>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- NOURISH MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="nourish-modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl col-xs-12 col-sm-9 col-sm-offset-1">
+          <h5>UX, Content Dev, Creative Direction for Educational Program</h5>
+        </div>
+        <div class="thumbnail-main col-xs-12 col-sm-5 col-sm-offset-1">
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/nourish/nourish-large.png" alt="layer 1"/>
+        </div>
+        <div class="launched-thumbnail-text padding-xl col-xs-12 col-sm-5 txtMd">
+          <p> This educational program was created with one other developer under a very tight deadline. I was responsible for the user experience, instructional design, creative direction, and content writing. </p>
+          </br>
+          <a href="http://www.thescienceofsoil.com/sites/all/themes/nfl_ui/widget/groundup.html" role="button" class="txtLg btn thumbnailLaunchedModalButton margin-xl">Launch Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- FINANCE MODAL (.fullscreen) -->
+<!-- MINI GAME MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="finance-modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+     <!--    <div class="thumbnail-hero paddingBottom-xl">
+          <h5>UX/Art/Creative Direction for Personal Finance Game</h5>
+        </div> -->
+
+        <div class="txtMd thumbnail-main col-xs-12 col-sm-8 col-sm-offset-2">
+          <h5 class="paddingBottom-xl">UX/Art/Creative Direction for Personal Finance Game</h5>
+
+          <p class="paddingBottom-xl"> This educational program aims to teach college level students about personal finance—an often overlooked but crucial life skill. The scenario based game presents the user with different financial choices and shows them a potential outcome of those choices. is actually like three games in one aimed at different demographics. The three games are: a road-trip, a semester abroad in Italy, and a year off from school. I developed the concept, created the UX design and templates, worked with subject matter experts to develop the content, and directed a team of illustrators and developers in India to produce over 100 screens.</p>
+
+          <h3> Art Direction Examples</h3>
+          </br>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/finance-game-1.png" alt="layer 1"/>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/finance-game-2.png" alt="layer 1"/>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/finance-game-3.png" alt="layer 1"/>
+          <h3> Example Wireframes</h3>
+          </br>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/finance-game-wireframe-1.png" alt="layer 1"/>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/finance-game-wireframe-2.png" alt="layer 1"/>
+          <h3> Example Scenario Map Showing Possible User Paths</h3>
+          </br>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/mini-games/finance-game-map.png" alt="layer 1"/>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- ART CITY THUMBNAIL MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="artCity-Modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+        <div class="thumbnail-hero paddingBottom-xl">
+          <h5>Art City</h5>
+        </div>
+        <div class="thumbnail-main col-xs-12 col-sm-5 col-sm-offset-1">
+          <img class="launched-thumbnail-image" id="curriculuminsight" src="images/artcity-large.png" alt="layer 1"/>
+        </div>
+        <div class="txtMd launched-thumbnail-text padding-xl col-xs-12 col-sm-5">
+          <p>Art city is an art finder that allows users to upload interesting art in their city or search for art within a particular city. Art City is a work in progress. Users can filter art by a category. Version two will include Google Maps API for walking tours. </p>
+          <p> <strong>Note:</strong> Please allow enough time for heroku to start up before searching for art. For now it takes time. </p>
+          <a href="http://breduffy.com/portfolio/artcity" role="button" class="txtLg btn thumbnailLaunchedModalButton margin-xl">Launch Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- CIVIL RIGHTS MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="civil-rights-modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+     <!--    <div class="thumbnail-hero paddingBottom-xl">
+          <h5>UX/Art/Creative Direction for Personal Finance Game</h5>
+        </div> -->
+
+        <div class="txtMd thumbnail-main col-xs-12 col-sm-8 col-sm-offset-2">
+          <h5 class="paddingBottom-xl">UI/UX for Civil Rights Program</h5>
+
+          <p class="paddingBottom-xl"> This educational program aims to teach students about the civil rights movement. I was responsible for the user experience and user interface design of the program. </p>
+
+          <h3> UI/UX Examples</h3>
+          </br>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/civil-rights/civil-rights-1.png" alt="layer 1"/>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/civil-rights/civil-rights-2.png" alt="layer 1"/>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/civil-rights/civil-rights-3.png" alt="layer 1"/>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/civil-rights/civil-rights-4.png" alt="layer 1"/>
+          <h3> Example Map</h3>
+          </br>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/civil-rights/civil-rights-map.png" alt="layer 1"/>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+<!-- END THUMBNAIL MODALS (.fullscreen) -->
+
+
+<!-- Begin Footer Section -->
+  <div class="footer col-xs-12 padding-xl textPrimary-white">
+    <h1 class="padding-xl">© Breanne Duffy 2015</h1>
+    <h1> <a class="textPrimary-white" href="https://www.linkedin.com/in/breanneduffy"><i class="textPrimary-white fa fa-linkedin-square fa-2x"> </i> My LinkedIn Page </a></h1>
+<!--     TO DO: Add link to fine art later -->
+<!--     <div id="fine-art">
+      <i class="fineArt fa fa-certificate faa-pulse animated-hover padding-lg"></i>
+      <p id="fine-art-text">looking for my paintings?</p>
+    </div> -->
+  </div>
+
+<!-- End Footer Section -->
+
+
+
+
+ <!--  some google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- My JS -->
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

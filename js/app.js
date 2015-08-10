@@ -48,6 +48,14 @@ $(document).ready(function() {
     $('#myInput').focus()
   })
 
+  $('#coworker-modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
+  $('#whiteboard-animation-modal').on('shown.bs.modal', function() {
+    $('#myInput').focus()
+  })
+
   //Hover over thumbnails
 
   $("[rel='tooltip']").tooltip();

@@ -44,9 +44,9 @@
                     <ul style="list-style-type:none;">
                         <li><a href="http://www.breduffy.com" class="big">Hello</a></li>
                         <li><a href="http://www.breduffy.com" class="big">Skills</a></li>
-                        <li><a href="http://www.breduffy.com/work" class="big">Portfolio</a></li>
-                        <li><a href="http://www.breduffy.com/contact" class="big">About</a></li>
-                        <li><a href="http://www.breduffy.com/contact" class="big">Contact</a></li>
+                        <li><a href="http://www.breduffy.com/work.html" class="big">Portfolio</a></li>
+                        <li><a href="http://www.breduffy.com/contact.html" class="big">About</a></li>
+                        <li><a href="http://www.breduffy.com/contact.html" class="big">Contact</a></li>
                     </ul>
                 </div>
             </div><!-- /.modal-content -->
@@ -87,7 +87,7 @@
         <p>An anti-social network developed as a fun team project.</p>
         <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#nope-Modal">Details</a>
       </div>
-      <img class="portfolio-area-tile-images" id="artCity" src="images/nope.png" alt="layer 1"/>
+      <img class="portfolio-area-tile-images" id="nope" src="images/nope.png" alt="layer 1"/>
     </div>
 
   <!-- UX: MINIGAME -->
@@ -99,7 +99,7 @@
         <p>High level UX design for three mini-games.</p>
         <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#mini-game-modal">Details</a>
       </div>
-      <img class="portfolio-area-tile-images" id="artCity" src="images/mini-game-small.png" alt="layer 1"/>
+      <img class="portfolio-area-tile-images" id="miniGame" src="images/mini-game-small.png" alt="layer 1"/>
     </div>
 
     <!-- NOURISH -->
@@ -111,7 +111,7 @@
         <p>Educational program exploring plant nutrients.</p>
         <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#nourish-modal">Details</a>
       </div>
-      <img class="portfolio-area-tile-images" id="artCity" src="images/nourish/nourish-small.png" alt="layer 1"/>
+      <img class="portfolio-area-tile-images" id="nourish" src="images/nourish/nourish-small.png" alt="layer 1"/>
     </div>
 
     <!-- FINANCE GAME -->
@@ -138,6 +138,17 @@
       <img class="portfolio-area-tile-images" id="artCity" src="images/artcity.png" alt="layer 1"/>
     </div>
 
+  <!-- MONSTER MAPS -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4>Monster Maps (all)</h4>
+        </br>
+        <p>A fun program where a user can draw and track a monster</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#monstermaps-Modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" id="monsterMaps" src="images/monstermaps.png" alt="layer 1"/>
+    </div>
+
 
   <!-- CIVIL RIGHTS -->
     <div class="col-xs-12 col-sm-4 portfolio-area-tile">
@@ -150,17 +161,19 @@
       <img class="portfolio-area-tile-images" id="artCity" src="images/civil-rights/civil-rights-small.png" alt="layer 1"/>
     </div>
 
-
-  <!-- MONSTER MAPS -->
+    <!-- White Board Animation -->
     <div class="col-xs-12 col-sm-4 portfolio-area-tile">
       <div class="caption padding-xl">
-        <h4>Monster Maps (all)</h4>
+        <h4>White Board Animation</h4>
         </br>
-        <p>A fun program where a user can draw and track a monster</p>
-        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#monstermaps-Modal">Details</a>
+        <p> An animation explaining different types of governement. </p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#whiteboard-animation-modal">Details</a>
       </div>
-      <img class="portfolio-area-tile-images" id="monsterMaps" src="images/monstermaps.png" alt="layer 1"/>
+      <img class="portfolio-area-tile-images" src="images/animation/whiteboard-small.png" alt="layer 1"/>
     </div>
+
+
+
 
   <!-- CURRICULUM INSIGHT -->
     <div class="col-xs-12 col-sm-4 portfolio-area-tile">
@@ -173,7 +186,19 @@
       <img class="portfolio-area-tile-images" id="curriculuminsight" src="images/curriculuminsight.png" alt="layer 1"/>
     </div>
 
-  <!-- TIC TAC TOE -->
+    <!-- PORTRAITS -->
+    <div class="col-xs-12 col-sm-4 portfolio-area-tile">
+      <div class="caption padding-xl">
+        <h4> Portraits of Coworkers</h4>
+        </br>
+        <p>A collection of sketches I made of my coworkers over five years.</p>
+        <a role="button" class="btn thumbnailButton margin-md" data-toggle="modal" data-target="#coworker-modal">Details</a>
+      </div>
+      <img class="portfolio-area-tile-images" src="images/srm/coworker-6.png" alt="layer 1"/>
+      <img class="portfolio-area-tile-images" src="images/srm/coworker-16.png" alt="layer 1"/>
+    </div>
+
+    <!-- TIC TAC TOE -->
     <div class="col-xs-12 col-sm-4 portfolio-area-tile">
       <div class="caption padding-xl">
         <h4>Arch-Rival Tic Tac Toe (all)</h4>
@@ -184,7 +209,7 @@
       <img class="portfolio-area-tile-images" src="images/tictactoe.png" alt="layer 1"/>
     </div>
 
-  <!-- CHARACTERS -->
+    <!-- CHARACTERS -->
     <div class="col-xs-12 col-sm-4 portfolio-area-tile">
       <div class="caption padding-xl">
         <h4>Character Developement</h4>
@@ -196,6 +221,7 @@
     </div>
 
 
+
   </div>
 
 </div>
@@ -204,7 +230,7 @@
 <!-- BEGIN MODAL SECTION -->
 
 
-<!-- MINI GAME MODAL (.fullscreen) -->
+<!-- CHARACTER DEVELOPEMENT MODAL (.fullscreen) -->
 <div class="modal fade modal-style fullscreen col-xs-12" id="character-modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content-thumbnail">
@@ -223,10 +249,10 @@
 
           <p class="paddingBottom-xl"> These characters were illustrated and developed for a literarcy program. </p>
 
-          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/characters/character-1.jpg" alt="layer 1"/>
+          <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/characters/character-1.png" alt="layer 1"/>
           <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/characters/character-2.png" alt="layer 1"/>
           <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/characters/character-3.png" alt="layer 1"/>
-
+        </div>
       </div>
 
     </div>
@@ -235,7 +261,7 @@
 <!-- /.fullscreen -->
 
 
-<!-- MINI GAME MODAL (.fullscreen) -->
+<!-- CIVIL RIGHTS MODAL (.fullscreen) -->
 <div class="modal fade modal-style fullscreen col-xs-12" id="civil-rights-modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content-thumbnail">
@@ -263,7 +289,7 @@
           <h3> Example Map</h3>
           </br>
           <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/civil-rights/civil-rights-map.png" alt="layer 1"/>
-
+        </div>
       </div>
 
     </div>
@@ -292,7 +318,7 @@
         <div class="txtMd thumbnail-main col-xs-12 col-sm-8 col-sm-offset-2">
           <h5 class="paddingBottom-xl">UX/Art/Creative Direction for Personal Finance Game</h5>
 
-          <p class="paddingBottom-xl"> This educational program aims to teach college level students about personal finance—an often overlooked but crucial life skill. The scenario based game presents the user with different financial choices and shows them a potential outcome of those choices. is actually like three games in one aimed at different demographics. The three games are: a road-trip, a semester abroad in Italy, and a year off from school. I developed the concept, created the UX design and templates, worked with subject matter experts to develop the content, and directed a team of illustrators and developers in India to produce over 100 screens.</p>
+          <p class="paddingBottom-xl"> This educational program aims to teach college level students about personal finance—an often overlooked but crucial life skill. The scenario based game presents the user with different financial choices and shows them a potential outcome of those choices. The program is actually like three games in one aimed at different demographics. The three games are: a road-trip, a semester abroad in Italy, and a year off from school. I developed the concept, created the UX design and templates, worked with subject matter experts to develop the content, and directed a team of illustrators and developers in India to produce over 100 screens.</p>
 
           <h3> Art Direction Examples</h3>
           </br>
@@ -519,21 +545,133 @@
 </div><!-- /.modal-dialog -->
 <!-- /.fullscreen -->
 
+<!-- COWORKER MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="coworker-modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+     <!--    <div class="thumbnail-hero paddingBottom-xl">
+          <h5>UX/Art/Creative Direction for Personal Finance Game</h5>
+        </div> -->
+
+        <div class="txtMd thumbnail-main col-xs-12 col-sm-8 col-sm-offset-2">
+          <h5 class="text-center paddingBottom-xl">Portraits of Coworkers</h5>
+
+          <p class="paddingBottom-xl"> I created hundres of small sketches of coworkers over five years. Here are some examples </p>
+
+          <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-2.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-3.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-4.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-5.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-6.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-7.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-8.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-9.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-10.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-11.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-12.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-13.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-14.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-15.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-16.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-17.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-18.png" alt="layer 1"/>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="paddingBottom-xl launched-thumbnail-image" id="curriculuminsight" src="images/srm/coworker-19.png" alt="layer 1"/>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
+
+<!-- WHITEBOARD MODAL (.fullscreen) -->
+<div class="modal fade modal-style fullscreen col-xs-12" id="whiteboard-animation-modal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content-thumbnail">
+      <div class="modal-header" style="border:0;">
+          <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg"></i></button>
+          <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+      </div>
+
+      <div class="modal-body text-center col-xs-12">
+     <!--    <div class="thumbnail-hero paddingBottom-xl">
+          <h5>UX/Art/Creative Direction for Personal Finance Game</h5>
+        </div> -->
+
+        <div class="txtMd thumbnail-main col-xs-12 col-sm-8 col-sm-offset-2">
+          <h5 class="text-center paddingBottom-xl">Whiteboard Animation</h5>
+
+          <p class="paddingBottom-xl"> This animation teaches students about different types of governement. </p>
+          </br>
+
+          <iframe src="https://player.vimeo.com/video/135264922" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+         <!--  <video width="100%" controls class="text-center">
+            <source src="images/animation/whiteboard-animation.mp4" type="video/mp4">
+            <source src="images/animation/whiteboard-animation.mp4" type="video/ogg">
+            Your browser does not support HTML5 video.
+          </video> -->
+        </div>
+      </div>
+
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<!-- /.fullscreen -->
+
 
 <!-- END THUMBNAIL MODALS (.fullscreen) -->
-
-
-
-<!-- END THUMBNAIL MODALS (.fullscreen) -->
-
-
-
-
 
 
 <!-- Begin Footer Section -->
-  <div id="footer" class="col-xs-12 padding-xl textPrimary-white">
-    <h3 class="padding-xl">© Breanne Duffy 2015</h3>
+  <div class="footer col-xs-12 padding-xl textPrimary-white">
+    <h1 class="padding-xl">© Breanne Duffy 2015</h1>
+    <h1> <a class="textPrimary-white" href="https://www.linkedin.com/in/breanneduffy"><i class="textPrimary-white fa fa-linkedin-square fa-2x"> </i> My LinkedIn Page </a></h1>
 <!--     TO DO: Add link to fine art later -->
 <!--     <div id="fine-art">
       <i class="fineArt fa fa-certificate faa-pulse animated-hover padding-lg"></i>

@@ -724,7 +724,7 @@ a:hover {
   text-align: center;
   padding: 0px; }
 
-#footer {
+.footer {
   height: 300px;
   background-color: black;
   z-index: 1000;
@@ -947,6 +947,13 @@ a:hover {
   border-radius: 0;
   color: #333;
   background-color: #ffffff; }
+
+#bre-portrait {
+  height: 100%;
+  width: 400px;
+  padding: 0px;
+  margin: 0px;
+  bottom: -100px; }
 
 html,
 body {
